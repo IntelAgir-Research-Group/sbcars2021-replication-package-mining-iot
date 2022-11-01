@@ -62,6 +62,7 @@ while [ $year -lt 2023 ]; do
 			count=$((count+100))
 			i=$((i+1))
 			ii=$((ii+1))
+			sleep 0.1
 		done
 		count=0
 		date=$year"-"$month"-16"..$year"-"$month"-"$day
@@ -71,6 +72,7 @@ while [ $year -lt 2023 ]; do
 			count=$((count+100))
 			i=$((i+1))
 			ii=$((ii+1))
+			sleep 0.1
 		done
 		count=0
 	done
